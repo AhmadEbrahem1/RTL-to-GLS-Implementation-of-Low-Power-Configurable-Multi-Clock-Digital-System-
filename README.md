@@ -9,4 +9,10 @@ Project phases:
 -	Verify Functionality equivalence using Formality tool
 -	Physical implementation of the system passing through ASIC flow phases and generate the GDS File.
 -	Verify functionality post-layout considering the actual delays. 
+
+
+
+
+std library used (TSMC's 130nm (0.13µm) CMOS): 
+scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
   

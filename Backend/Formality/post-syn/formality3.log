@@ -1,0 +1,37 @@
+****************************************************
+
+Info:  Net Imp:/WORK/ALU_TOP_DW01_sub_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW01_add_0/CO is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW01_add_1/CO is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[7] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[6] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[5] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[4] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[3] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[2] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[1] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/remainder[0] is undriven.
+Info:  Net Imp:/WORK/ALU_TOP_DW_div_uns_1/divide_by_0 is undriven.
+Info:  guide_uniquify 118 (Line: 962)  Cannot find object "U1_ClkDiv/U12" in design 'SYS_TOP'.
+Info:  SVF Operation 118 (Line: 962) - uniquify.  Status: rejected
+Info:  guide_uniquify 118 (Line: 962)  Cannot find object "U0_ClkDiv/U12" in design 'SYS_TOP'.
+Info:  guide_uniquify 136 (Line: 1109)  Cannot find object "U0_ALU/dp_cluster_0/mult_34" in design 'SYS_TOP'.
+Info:  SVF Operation 136 (Line: 1109) - uniquify.  Status: rejected
+Info:  guide_uniquify 137 (Line: 1113)  Cannot find object "U0_SYS_CTRL/dp_cluster_3/mult_add_1343_aco" in design 'SYS_TOP'.
+Info:  SVF Operation 137 (Line: 1113) - uniquify.  Status: rejected
+Info:  guide_uniquify 138 (Line: 1117)  Cannot find object "U0_SYS_CTRL/dp_cluster_2/mult_add_1357_aco" in design 'SYS_TOP'.
+Info:  SVF Operation 138 (Line: 1117) - uniquify.  Status: rejected
+Info:  guide_uniquify 139 (Line: 1121)  Cannot find object "U0_SYS_CTRL/dp_cluster_1/mult_add_1371_aco" in design 'SYS_TOP'.
+Info:  SVF Operation 139 (Line: 1121) - uniquify.  Status: rejected
+Info:  guide_uniquify 140 (Line: 1125)  Cannot find object "U0_SYS_CTRL/dp_cluster_0/mult_add_1385_aco" in design 'SYS_TOP'.
+Info:  SVF Operation 140 (Line: 1125) - uniquify.  Status: rejected
+Info:  guide_uniquify 141 (Line: 1129)  Cannot find object "U0_UART/RX_UART/u0/dp_cluster_0/mult_add_37_aco" in design 'SYS_TOP'.
+Info:  Pre-verification of Ref:/WORK/ALU_TOP/div_40 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/ALU_TOP/mult_34 SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/System_CTRL/mult_add_1343_aco SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/System_CTRL/mult_add_1357_aco SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/System_CTRL/mult_add_1371_aco SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/System_CTRL/mult_add_1385_aco SUCCEEDED.
+Info:  Pre-verification of Ref:/WORK/EDGE_BIT_COUNTER/mult_add_37_aco SUCCEEDED.
+****************************************************
+

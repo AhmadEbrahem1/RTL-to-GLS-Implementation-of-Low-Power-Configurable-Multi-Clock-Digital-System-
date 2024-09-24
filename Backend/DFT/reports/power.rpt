@@ -1,0 +1,94 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : SYS_TOP
+Version: K-2015.06
+Date   : Sat Sep 30 02:14:23 2023
+****************************************
+
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/tsmc_fb_cl013g_sc/aci/sc-m/synopsys/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.08 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+SYS_TOP                                3.24e-02    0.141 1.51e+07    0.189 100.0
+  U0_CLK_GATE (CLK_GATE)               3.51e-03 3.21e-03 2.46e+04 6.74e-03   3.6
+  U0_ALU (ALU_TOP_test_1)              5.65e-03 3.93e-02 4.25e+06 4.92e-02  26.1
+    mult_34 (ALU_TOP_DW02_mult_0)      2.15e-03 4.18e-03 1.69e+06 8.02e-03   4.3
+    add_22 (ALU_TOP_DW01_add_0)        1.34e-04 6.39e-04 2.12e+05 9.85e-04   0.5
+    sub_28 (ALU_TOP_DW01_sub_0)        1.79e-04 1.18e-03 2.50e+05 1.60e-03   0.9
+    div_40 (ALU_TOP_DW_div_uns_0)      1.39e-03 3.10e-03 1.26e+06 5.75e-03   3.1
+  U0_RegFile (REG_FILE_test_1)         5.04e-03 3.58e-02 3.41e+06 4.43e-02  23.5
+  U0_SYS_CTRL (System_CTRL_test_1)     9.91e-04 6.00e-03 9.88e+05 7.98e-03   4.2
+  U0_UART (UART_test_1)                3.90e-03 1.59e-02 2.27e+06 2.21e-02  11.7
+    RX_UART (TOP_RX_UART_test_1)       9.48e-04 1.02e-02 1.66e+06 1.28e-02   6.8
+      DESERILIZER_u5 (DESERILIZER_test_1)
+                                       4.81e-05 3.00e-03 2.50e+05 3.29e-03   1.7
+      stop_chk_u4 (stop_check)            0.000    0.000 1.53e+03 1.53e-06   0.0
+      strt_chk_u3 (start_check)        1.61e-06 5.47e-06 6.71e+03 1.38e-05   0.0
+      par_chk_u2 (parity_check)        5.80e-07 2.58e-06 9.89e+04 1.02e-04   0.1
+      data_sampler_u1 (DATA_SAMPLING_test_1)
+                                       3.70e-04 2.20e-03 6.74e+05 3.25e-03   1.7
+      u0 (EDGE_BIT_COUNTER_test_1)     1.95e-04 3.21e-03 3.80e+05 3.78e-03   2.0
+      fsm_u0 (FSM_RX_UART_test_1)      3.33e-04 1.79e-03 2.45e+05 2.36e-03   1.3
+    TX_UART (TOP_TX_UART_test_1)       2.01e-03 5.68e-03 6.04e+05 8.29e-03   4.4
+      SERILIZER_B3 (SERILIZER_test_1)  2.53e-05 1.35e-03 1.91e+05 1.56e-03   0.8
+      PARITY_CALC_B2 (PARITY_CALC)     1.04e-06 9.61e-06 8.72e+04 9.79e-05   0.1
+      MUX_B1 (MUX_test_1)              1.28e-03 5.35e-04 4.73e+04 1.86e-03   1.0
+      FSM_B0 (FSM_UART_TX_test_1)      1.46e-04 1.46e-03 1.18e+05 1.72e-03   0.9
+  U1_ClkDiv (CLK_Divider_test_1)       2.39e-04 3.35e-03 5.71e+05 4.17e-03   2.2
+    r75 (CLK_Divider_1_DW01_inc_0)     1.21e-05 1.25e-04 9.82e+04 2.35e-04   0.1
+  U0_CLKDIV_MUX (CLKDIV_MUX)           9.45e-06 1.04e-05 4.62e+04 6.61e-05   0.0
+  U0_ClkDiv (CLK_Divider_test_0)       4.13e-04 3.96e-03 5.53e+05 4.92e-03   2.6
+    r75 (CLK_Divider_0_DW01_inc_0)     2.03e-05 1.39e-04 9.78e+04 2.58e-04   0.1
+  U0_PULSE_GEN (PULSE_GEN_test_1)      1.03e-05 4.09e-04 1.94e+04 4.39e-04   0.2
+  U0_UART_FIFO (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                       2.61e-03 2.59e-02 2.52e+06 3.11e-02  16.5
+    sync_r2w (BIT_SYNC_NUM_STAGES2_BUS_WIDTH4_test_0)
+                                       2.51e-07 3.03e-03 1.60e+05 3.19e-03   1.7
+    sync_w2r (BIT_SYNC_NUM_STAGES2_BUS_WIDTH4_test_1)
+                                       1.69e-07 3.03e-03 1.60e+05 3.19e-03   1.7
+    u2_Rd_PTR (Rd_ptr_GREY_test_1)     1.12e-07 1.01e-03 2.27e+05 1.24e-03   0.7
+      rd_ptr_gray (BINARY_TO_GRAY_1)      0.000    0.000 3.94e+04 3.94e-05   0.0
+      Rd_ptr_u0 (Rd_ptr_test_1)        2.78e-08 1.01e-03 1.27e+05 1.14e-03   0.6
+    u1_Wd_PTR (Wd_ptr_GREY_test_1)     6.68e-07 1.01e-03 2.22e+05 1.23e-03   0.7
+      w_ptr_gray (BINARY_TO_GRAY_0)    3.71e-08 1.90e-07 3.94e+04 3.96e-05   0.0
+      Wd_ptr_u0 (Wd_ptr_test_1)        4.88e-07 1.01e-03 1.32e+05 1.14e-03   0.6
+    u0_FIFO_MEM (FIFO_MEMORY_test_1)   2.08e-03 1.78e-02 1.74e+06 2.16e-02  11.5
+  U0_ref_sync (DATA_SYNC_BUS_WIDTH8_NUM_STAGES2_test_1)
+                                       3.59e-04 3.36e-03 2.26e+05 3.94e-03   2.1
+  U1_RST_SYNC (RST_SYNC_NUM_STAGES2_test_1)
+                                       1.58e-05 1.13e-03 4.31e+04 1.19e-03   0.6
+  U0_RST_SYNC (RST_SYNC_NUM_STAGES2_test_0)
+                                       1.83e-05 1.09e-03 4.31e+04 1.16e-03   0.6
+  u2_rst_mux (mux2X1_1)                1.98e-05 8.59e-05 1.28e+04 1.18e-04   0.1
+  u1_rst_mux (mux2X1_2)                1.98e-05 8.59e-05 1.28e+04 1.18e-04   0.1
+  u0_rst_mux (mux2X1_3)                1.79e-04 9.43e-05 1.15e+04 2.84e-04   0.2
+  u3_clk_mux (mux2X1_4)                6.76e-04 1.89e-04 1.15e+04 8.77e-04   0.5
+  u2_clk_mux (mux2X1_5)                7.57e-04 1.90e-04 1.15e+04 9.58e-04   0.5
+  u1_clk_mux (mux2X1_6)                5.24e-04 1.87e-04 1.15e+04 7.23e-04   0.4
+  u0_clk_mux (mux2X1_0)                5.35e-03 4.10e-04 1.88e+04 5.78e-03   3.1
+1

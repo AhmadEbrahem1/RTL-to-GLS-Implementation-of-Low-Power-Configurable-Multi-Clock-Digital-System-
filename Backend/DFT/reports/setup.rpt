@@ -1,0 +1,1650 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 20
+Design : SYS_TOP
+Version: K-2015.06
+Date   : Sat Sep 30 02:14:23 2023
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+  Startpoint: U0_ALU/B_FF_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[0]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[0]/Q (SDFFRX1M)          0.57       0.57 f
+  U0_ALU/B_FF_reg[1]/SI (SDFFRX1M)         0.00       0.57 f
+  data arrival time                                   0.57
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[1]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.57
+  -----------------------------------------------------------
+  slack (MET)                                         8.64
+
+
+  Startpoint: U0_ALU/B_FF_reg[5]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[6]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[5]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[5]/Q (SDFFRX1M)          0.54       0.54 f
+  U0_ALU/B_FF_reg[6]/SI (SDFFRX1M)         0.00       0.54 f
+  data arrival time                                   0.54
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[6]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         8.67
+
+
+  Startpoint: U0_ALU/B_FF_reg[2]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[3]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[2]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[2]/Q (SDFFRX1M)          0.54       0.54 f
+  U0_ALU/B_FF_reg[3]/SI (SDFFRX1M)         0.00       0.54 f
+  data arrival time                                   0.54
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[3]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         8.67
+
+
+  Startpoint: U0_ALU/B_FF_reg[3]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[4]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[3]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[3]/Q (SDFFRX1M)          0.54       0.54 f
+  U0_ALU/B_FF_reg[4]/SI (SDFFRX1M)         0.00       0.54 f
+  data arrival time                                   0.54
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[4]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         8.67
+
+
+  Startpoint: U0_ALU/B_FF_reg[6]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[7]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[6]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[6]/Q (SDFFRX1M)          0.54       0.54 f
+  U0_ALU/B_FF_reg[7]/SI (SDFFRX1M)         0.00       0.54 f
+  data arrival time                                   0.54
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[7]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         8.67
+
+
+  Startpoint: U0_ALU/B_FF_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[2]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[1]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[1]/Q (SDFFRX1M)          0.54       0.54 f
+  U0_ALU/B_FF_reg[2]/SI (SDFFRX1M)         0.00       0.54 f
+  data arrival time                                   0.54
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[2]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.59       9.21
+  data required time                                  9.21
+  -----------------------------------------------------------
+  data required time                                  9.21
+  data arrival time                                  -0.54
+  -----------------------------------------------------------
+  slack (MET)                                         8.68
+
+
+  Startpoint: U0_ALU/B_FF_reg[4]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[5]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/B_FF_reg[4]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/B_FF_reg[4]/Q (SDFFRX1M)          0.53       0.53 f
+  U0_ALU/B_FF_reg[5]/SI (SDFFRX1M)         0.00       0.53 f
+  data arrival time                                   0.53
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[5]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.58       9.22
+  data required time                                  9.22
+  -----------------------------------------------------------
+  data required time                                  9.22
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack (MET)                                         8.69
+
+
+  Startpoint: U0_ALU/A_FF_reg[7]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/B_FF_reg[0]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[7]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[7]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/B_FF_reg[0]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/B_FF_reg[0]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[6]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[7]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[6]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[6]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[7]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[7]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[5]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[6]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[5]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[5]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[6]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[6]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[4]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[5]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[4]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[4]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[5]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[5]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[3]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[4]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[3]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[3]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[4]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[4]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[2]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[3]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[2]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[2]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[3]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[3]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[2]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[1]/CK (SDFFRX1M)         0.00       0.00 r
+  U0_ALU/A_FF_reg[1]/Q (SDFFRX1M)          0.42       0.42 f
+  U0_ALU/A_FF_reg[2]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[2]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_ALU/A_FF_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/A_FF_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock ALU_CLK (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  U0_ALU/A_FF_reg[0]/CK (SDFFRQX2M)        0.00       0.00 r
+  U0_ALU/A_FF_reg[0]/Q (SDFFRQX2M)         0.42       0.42 f
+  U0_ALU/A_FF_reg[1]/SI (SDFFRX1M)         0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock ALU_CLK (rise edge)               10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.20       9.80
+  U0_ALU/A_FF_reg[1]/CK (SDFFRX1M)         0.00       9.80 r
+  library setup time                      -0.56       9.24
+  data required time                                  9.24
+  -----------------------------------------------------------
+  data required time                                  9.24
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (MET)                                         8.82
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U120/Y (OAI2BB2X1M)            0.11       4.88 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][4]/D (SDFFRQX2M)
+                                                          0.00       4.88 f
+  data arrival time                                                  4.88
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.51
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U119/Y (OAI2BB2X1M)            0.11       4.88 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][3]/D (SDFFRQX2M)
+                                                          0.00       4.88 f
+  data arrival time                                                  4.88
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.51
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U118/Y (OAI2BB2X1M)            0.11       4.88 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][2]/D (SDFFRQX2M)
+                                                          0.00       4.88 f
+  data arrival time                                                  4.88
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.51
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][6]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U230/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U227/Y (MX4X1M)                              0.33       4.29 f
+  U0_RegFile/U167/Y (AND2X2M)                             0.15       4.44 f
+  U0_RegFile/RdData[6] (REG_FILE_test_1)                  0.00       4.44 f
+  U0_SYS_CTRL/Rd_Data[6] (System_CTRL_test_1)             0.00       4.44 f
+  U0_SYS_CTRL/U70/Y (OAI2BB1X2M)                          0.17       4.62 f
+  U0_SYS_CTRL/Wr_Data_FIFO[6] (System_CTRL_test_1)        0.00       4.62 f
+  U0_UART_FIFO/WR_DATA[6] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.62 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[6] (FIFO_MEMORY_test_1)
+                                                          0.00       4.62 f
+  U0_UART_FIFO/u0_FIFO_MEM/U87/Y (INVX2M)                 0.13       4.75 r
+  U0_UART_FIFO/u0_FIFO_MEM/U122/Y (OAI2BB2X1M)            0.11       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][6]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][6]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.52
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][1]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U231/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U207/Y (MX4X1M)                              0.33       4.29 f
+  U0_RegFile/U162/Y (AND2X2M)                             0.15       4.44 f
+  U0_RegFile/RdData[1] (REG_FILE_test_1)                  0.00       4.44 f
+  U0_SYS_CTRL/Rd_Data[1] (System_CTRL_test_1)             0.00       4.44 f
+  U0_SYS_CTRL/U60/Y (OAI2BB1X2M)                          0.17       4.62 f
+  U0_SYS_CTRL/Wr_Data_FIFO[1] (System_CTRL_test_1)        0.00       4.62 f
+  U0_UART_FIFO/WR_DATA[1] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.62 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[1] (FIFO_MEMORY_test_1)
+                                                          0.00       4.62 f
+  U0_UART_FIFO/u0_FIFO_MEM/U82/Y (INVX2M)                 0.13       4.75 r
+  U0_UART_FIFO/u0_FIFO_MEM/U117/Y (OAI2BB2X1M)            0.11       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][1]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[0][1]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.52
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U112/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][4]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U111/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][3]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U110/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][2]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[1][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U104/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][4]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U103/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][3]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U102/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][2]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[3][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U128/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][4]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U127/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][3]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U126/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][2]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[4][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.42      99.38
+  data required time                                                99.38
+  --------------------------------------------------------------------------
+  data required time                                                99.38
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U144/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][4]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U143/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][3]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U142/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][2]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[5][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U235/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U219/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U165/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[4] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[4] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U66/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[4] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[4] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[4] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U85/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U136/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][4]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][4]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U234/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U215/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U164/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[3] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[3] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U64/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[3] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[3] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[3] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U84/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U135/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][3]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][3]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+  Startpoint: U0_SYS_CTRL/Frame_Counter_reg[0]
+              (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Endpoint: U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_SYS_CTRL/Frame_Counter_reg[0]/CK (SDFFRQX2M)         0.00       0.00 r
+  U0_SYS_CTRL/Frame_Counter_reg[0]/Q (SDFFRQX2M)          0.41       0.41 f
+  U0_SYS_CTRL/U168/Y (BUFX2M)                             0.21       0.63 f
+  U0_SYS_CTRL/U57/Y (NOR2X2M)                             0.17       0.79 r
+  U0_SYS_CTRL/U38/Y (INVX2M)                              0.08       0.87 f
+  U0_SYS_CTRL/U56/Y (NOR2X2M)                             0.20       1.07 r
+  U0_SYS_CTRL/U37/Y (INVX2M)                              0.08       1.15 f
+  U0_SYS_CTRL/U42/Y (OR2X2M)                              0.23       1.38 f
+  U0_SYS_CTRL/U32/Y (INVX2M)                              0.19       1.57 r
+  U0_SYS_CTRL/U39/Y (AOI21X2M)                            0.12       1.69 f
+  U0_SYS_CTRL/U82/Y (OAI211X2M)                           0.21       1.89 r
+  U0_SYS_CTRL/U188/Y (AO22X1M)                            0.18       2.08 r
+  U0_SYS_CTRL/out_address[0] (System_CTRL_test_1)         0.00       2.08 r
+  U8/Y (BUFX2M)                                           0.39       2.46 r
+  U0_RegFile/adress[0] (REG_FILE_test_1)                  0.00       2.46 r
+  U0_RegFile/U169/Y (INVX2M)                              0.07       2.54 f
+  U0_RegFile/U147/Y (BUFX2M)                              0.16       2.69 f
+  U0_RegFile/U144/Y (INVX2M)                              0.77       3.47 r
+  U0_RegFile/U233/Y (MX4X1M)                              0.49       3.96 f
+  U0_RegFile/U211/Y (MX4X1M)                              0.34       4.30 f
+  U0_RegFile/U163/Y (AND2X2M)                             0.15       4.45 f
+  U0_RegFile/RdData[2] (REG_FILE_test_1)                  0.00       4.45 f
+  U0_SYS_CTRL/Rd_Data[2] (System_CTRL_test_1)             0.00       4.45 f
+  U0_SYS_CTRL/U62/Y (OAI2BB1X2M)                          0.17       4.63 f
+  U0_SYS_CTRL/Wr_Data_FIFO[2] (System_CTRL_test_1)        0.00       4.63 f
+  U0_UART_FIFO/WR_DATA[2] (FIFO_TOP_DATA_WIDTH8_pointer_width4_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/WR_DATA[2] (FIFO_MEMORY_test_1)
+                                                          0.00       4.63 f
+  U0_UART_FIFO/u0_FIFO_MEM/U83/Y (INVX2M)                 0.13       4.76 r
+  U0_UART_FIFO/u0_FIFO_MEM/U134/Y (OAI2BB2X1M)            0.09       4.86 f
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][2]/D (SDFFRQX2M)
+                                                          0.00       4.86 f
+  data arrival time                                                  4.86
+
+  clock SCAN_CLK (rise edge)                            100.00     100.00
+  clock network delay (ideal)                             0.00     100.00
+  clock uncertainty                                      -0.20      99.80
+  U0_UART_FIFO/u0_FIFO_MEM/fifo_MEM_reg[2][2]/CK (SDFFRQX2M)
+                                                          0.00      99.80 r
+  library setup time                                     -0.41      99.39
+  data required time                                                99.39
+  --------------------------------------------------------------------------
+  data required time                                                99.39
+  data arrival time                                                 -4.86
+  --------------------------------------------------------------------------
+  slack (MET)                                                       94.53
+
+
+1
